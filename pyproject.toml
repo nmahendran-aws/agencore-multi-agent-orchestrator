@@ -1,0 +1,22 @@
+[project]
+name = "multi-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "bedrock-agentcore>=1.1.2",
+    "bedrock-agentcore-starter-toolkit>=0.2.5",
+    "boto3>=1.42.18",
+    "duckduckgo-search>=8.1.1",
+    "langchain-community>=0.4.1",
+    "langchain[aws]>=1.2.0",
+    "langgraph>=1.0.5",
+    "langsmith[otel]>=0.5.1",
+    "opentelemetry-instrumentation-langchain>=0.50.1",
+    "starlette>=0.50.0",
+    "strands-agents>=1.20.0",
+    "strands-agents-tools>=0.2.18",
+    "uv>=0.9.19",
+    "uvicorn>=0.40.0",
+]
